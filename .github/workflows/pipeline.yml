@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   # ────────────────────────────────────────────────────────────────
-  # JOB 1 — Build, segurança e assinatura do artefato
+  # JOB 1 — B.uild, segurança e assinatura do artefato
   # ────────────────────────────────────────────────────────────────
   build:
     name: Build, Segurança e Assinatura
