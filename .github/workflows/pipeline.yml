@@ -26,7 +26,7 @@ jobs:
 
       - name: 🔐 Inserir Secrets no JavaScript
         run: |
-          echo "Nenhum segredo a ser inserido no código"
+        echo "Nenhum segredo a ser inserido no código"
 
       - name: ⚙️ Build
         run: |
@@ -37,7 +37,7 @@ jobs:
       # ❌ PASSO A IMPLEMENTAR — Secrets Scanning com Gitleaks
       # Dica: use a action oficial "gitleaks/gitleaks-action@v2" e passe o
       - name: 🔑 Secrets Scanning
-        run: echo "TODO - implemente o Secrets Scanning com Gitleaks aqui"
+        uses: echo "TODO - implemente o Secrets Scanning com Gitleaks aqui"
 
       # ❌ PASSO A IMPLEMENTAR — SAST com Semgrep
       # Dica: instale com "pip install semgrep" e rode
